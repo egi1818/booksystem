@@ -3,11 +3,11 @@ import psycopg2
 from psycopg2 import Error
 
 try:
-	connection = psycopg2.connect(user="wnxsqxswgdcvjf",
-									password="6d59045318b970b68f44997afb5d6ce3dfc77ec90c3b434b4b8916c923c4d828",
-									host="ec2-3-225-213-67.compute-1.amazonaws.com",
+	connection = psycopg2.connect(user="lfdtytgdqrhbqu",
+									password="97b0e3a555d7ae30f730c48dd944cafd04f6c7338361bd86ee5d64cc17269969",
+									host="ec2-54-165-184-219.compute-1.amazonaws.com",
 									port="5432",
-									database="d6v1o3utkdrff0")
+									database="dda1fmsu59fshs")
 	#database instance
 	# conn = sqlite3.connect('database.db')
 	cursor = connection.cursor()
