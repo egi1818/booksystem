@@ -1,13 +1,10 @@
 # import sqlite3
 import psycopg2
 from psycopg2 import Error
+import os
 
 try:
-	connection = psycopg2.connect(user="lfdtytgdqrhbqu",
-									password="97b0e3a555d7ae30f730c48dd944cafd04f6c7338361bd86ee5d64cc17269969",
-									host="ec2-54-165-184-219.compute-1.amazonaws.com",
-									port="5432",
-									database="dda1fmsu59fshs")
+	connection = psycopg2.connect(os.environ["DATABASE_URL"])
 	#database instance
 	# conn = sqlite3.connect('database.db')
 	cursor = connection.cursor()
