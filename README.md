@@ -1,6 +1,6 @@
 # Book Shop Flask Application
 
-![Book Shop](1.png)
+![Book Shop](document/multidevice.book%20(1)%20(2).png)
 
 Welcome to the Book Shop Flask App! This application is designed to help users manage their Books shop and add books, from the admin side and user can buy the book online by user rating and reviews.
 
@@ -110,10 +110,7 @@ All user stories have been tested and validated.
 ![Registration](document/reg.png)
 ![Registration page validation](document/image_50390529%20(1).JPG)
 ![Book details page](document/disc.png)
-## Home-Page
-![Home-Page]()
-## Login-Page
-## Register
+
 
 ## Deployment & Local Development
 * `Deploying to Heroku`
@@ -155,20 +152,4 @@ To install and run the app locally, follow these steps:
 Install the required packages using` pip install -r requirements.txt`.
 - Create a PostgreSQL database and configure the database settings.
 - Run `Flask run` to start the development server.
-
-## Usage
-
-Explain how users can use your Book System Flask Application. Provide instructions on how to navigate the user interface, perform common tasks, and utilize various features. You can include code snippets or examples if necessary.
-
-## Contributing
-
-Explain how others can contribute to your project. Include guidelines for submitting bug reports, feature requests, or pull requests. If you have a code of conduct, link to it here.
-
-## License
-
-Specify the license under which your Book Shop Flask Application is distributed. If you're unsure, you can use a license like MIT or Apache 2.0. Include any additional licensing information or disclaimers as necessary.
-
-## Contact
-
-Provide contact information for users or contributors who have questions, suggestions, or feedback. You can include an email address or link to your preferred communication channel.
 
